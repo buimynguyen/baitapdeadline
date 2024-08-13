@@ -3,7 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-style{
         .hearder {
             
             border-bottom:  2px solid rgb(12, 11, 11);
@@ -67,4 +66,4 @@ style{
             grid-template-columns: 30% 70%;
 
         }
-    }
+    
