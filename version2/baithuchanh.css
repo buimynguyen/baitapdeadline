@@ -4,30 +4,37 @@
   box-sizing: border-box;
 }
 
+.app {
+  border: 5px solid green;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-color: aquamarine;
+}
+
 .hearder {
-  border-bottom: 2px solid rgb(12, 11, 11);
+  border-bottom: 5px solid rgb(12, 11, 11);
   height: 200px;
   width: 500;
   text-align: center;
   background-color: brown;
 }
 
-h1 {
-  text-transform: capitalize;
-}
-.hearder1 {
-  border-bottom: 2px solid black;
+.menu {
+  border-bottom: 5px solid black;
   height: 100px;
   width: 500;
   text-align: center;
   background-color: aqua;
 }
 
-h1 {
-  text-transform: capitalize;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 70%;
 }
 
-.hearder2 {
+.menu2 {
   border-right: 5px solid black;
   height: 200px;
   width: 500;
@@ -35,11 +42,7 @@ h1 {
   background-color: rgb(88, 23, 149);
 }
 
-h1 {
-  text-transform: capitalize;
-}
-
-.hearder3 {
+.content {
   border: 0px solid rgb(6, 7, 6);
   height: 200px;
   width: 500;
@@ -47,12 +50,8 @@ h1 {
   background-color: blue;
 }
 
-h1 {
-  text-transform: capitalize;
-}
-
-.hearder4 {
-  border-right: 5px solid rgb(5, 5, 5);
+.footer {
+  border-top: 5px solid rgb(5, 5, 5);
   height: 200px;
   width: 500;
   text-align: center;
@@ -61,9 +60,4 @@ h1 {
 
 h1 {
   text-transform: capitalize;
-}
-
-.wrapper {
-  display: grid;
-  grid-template-columns: 30% 70%;
 }
